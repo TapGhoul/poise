@@ -272,7 +272,7 @@
 <a href=#272 id=272 data-nosnippet>272</a>            };
 <a href=#273 id=273 data-nosnippet>273</a>
 <a href=#274 id=274 data-nosnippet>274</a>            <span class="comment">// s has specified the teams they want to be considered "Owner".
-<a href=#275 id=275 data-nosnippet>275</a>            </span><span class="kw">if </span>initialized_teams.iter().any(|r| <span class="kw-2">*</span>r == member.role) {
+<a href=#275 id=275 data-nosnippet>275</a>            </span><span class="kw">if </span>initialized_teams.contains(<span class="kw-2">&amp;</span>member.role) {
 <a href=#276 id=276 data-nosnippet>276</a>                owners.insert(member.user.id);
 <a href=#277 id=277 data-nosnippet>277</a>            }
 <a href=#278 id=278 data-nosnippet>278</a>        }
